@@ -1,0 +1,511 @@
+.header {
+    position: -webkit-sticky;
+    position: sticky;
+  top: 0;
+}
+
+.procedures_header {
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+    width: 100%;
+    background-image: url(../images/prepareHeader-01.png);
+    background-size: cover;
+    text-align: end;
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    color: #E8EAEB;
+    padding: 10px;
+    font-size: 7vw;
+    text-align: center;
+}
+
+.procedures_header1 {
+    padding-right: 14%;
+}
+
+.procedures_header2 {
+    text-align: end;
+}
+
+.prepare_content {
+    background-color: #E8EAEB;
+}
+
+.prepare_subh {
+    font-family: ff-meta-correspondence-web-p,ans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    padding: 15px 10px 0;
+}
+
+.prepare_text {
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    padding: 0 10px;
+}
+
+.prepare_img {
+    background-image: url(../images/prepareHand-01.png);
+    background-size: cover;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+.white {
+    color: #E8EAEB;
+}
+
+.white2 {
+    padding-bottom: 95px;
+}
+
+.prepare_text2 {
+    background-color: #E8EAEB;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.hygiene_section {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.hygiene_header {
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+    background-image: url(../images/hygiene-01.png);
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 80px;
+    padding-left: 105px;
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    color: #E8EAEB;
+    font-size: 13vw;
+}
+
+.hygiene_text {
+    background-color: #E8EAEB;
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.hygiene_image {
+    width: 100%;
+}
+
+.aftercare {
+    position: relative;
+    z-index: 4;
+    background-image: url(../images/aftercare-01.png);
+    background-size: cover;
+    height: 300px;
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;;
+    justify-content: space-between;
+}
+
+.aftercare_text {
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    padding: 10px 10px;
+
+}
+
+.aftercare_header {
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12vw;
+    padding-right: 14%;
+    padding-left: 14%;
+    color: #E8EAEB;
+    text-align: center;
+}
+
+.btn {
+    background-color: transparent;
+    border: 0.5px solid #546375;
+    border-radius: 25px;
+    font-size: 25px;
+    padding: 3px;
+    margin: 0 10px 10px 0;
+}
+
+.cta {
+    background-color: #E8EAEB;
+    color: #59687A;
+    border: 1.5px solid #546375;
+    border-radius: 25px;
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+   text-align: center;
+    font-size: 20px;
+    padding: 6px 30px;
+}
+
+.cta:hover {
+    background-color: #556476;
+    color: #E8EAEB;
+    cursor: pointer;
+  transition-duration: 1s;
+}
+
+button {
+    outline: none;
+}
+
+#aftercare_sheet {
+    width: 100%;
+    position: relative;
+    z-index: 8;
+}
+
+.products_section {
+    background-color: #E8EAEB;
+    position: relative;
+}
+
+.products_header {
+    font-family: ff-meta-correspondence-web-p,ans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    padding: 40px 10px 0;
+    margin-bottom: 25px;
+    margin-right: 12%;
+    border-bottom: 9px solid #556476;
+}
+
+.products_text {
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.products_photo {
+    width: 100%;
+}
+
+p2 {
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0 10px;
+}
+
+.additional {
+    font-size: 14px;
+}
+
+.breadcrumb {
+    font-size: 45px;
+}
+
+.prepare_web {
+    display: none;
+}
+
+.prepare_white_box2 {
+    display: none;
+}
+
+.hygiene {
+    display: none;
+}
+
+.aftercare_web {
+    display: none;
+}
+
+.products_web {
+    display: none;
+}
+
+.products_parralax {
+    display: none;
+}
+
+.prepare_white_box4 {
+    display: none;
+}
+
+/* media querries */
+
+@media only screen and (min-width: 768px) {
+    .prepare_web {
+    display: block;
+}
+
+    .products_section {
+        display: none;
+    }
+
+    .aftercare {
+        display: none;
+    }
+
+    .hygiene_section {
+        display: none;
+    }
+
+    .prepare_content {
+        display: none;
+    }
+
+    .hygiene {
+    display: block;
+}
+
+    .aftercare_web {
+    display: block;
+}
+
+    .products_web {
+    display: block;
+}
+
+    .products_parralax {
+    display: block;
+}
+
+    .prepare_white_box {
+        background-color: #E8EAEB;
+        width: 70%;
+        height: 8vw;
+    }
+
+    .prepare_parralax {
+        background-image: url(../images/proceduresWeb.jpg);
+        min-height: 700px;
+        width: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-between;
+}
+
+    .prepare_header_web {
+        color: #E8EAEB;
+        font-family: azo-sans-web, sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 70px;
+        padding: 8%;
+
+    }
+
+    .prepare_container1 {
+        background-color: #E8EAEB;
+        padding-right: 90px;
+        padding-top: 4%;
+        padding-left: 90px;
+    }
+
+    .prepare_subh_web {
+    font-family: ff-meta-correspondence-web-p,ans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+        padding-top: 20px;
+}
+
+    .prepare_text_web {
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+        padding-bottom: 10px;
+        font-size: 18px;
+}
+
+    .hygiene_parralax {
+        background-image: url(../images/hygieneWeb-01.jpg);
+        min-height: 550px;
+        width: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .hygiene_header_web {
+        color: #E8EAEB;
+        font-family: azo-sans-web, sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 70px;
+        padding: 8%;
+        text-align: end;
+    }
+
+
+    .hygiene_text_web {
+        background-color: #E8EAEB;
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+        width: 100%;
+    padding-top: 4vw;
+        padding-left: 15%;
+        padding-right: 15%;
+        font-size: 18px;
+        padding-top: 50px;
+        padding-bottom: 4vw;
+        text-align: left;
+    }
+
+
+    .prepare_white_box2 {
+        display: block;
+        background-color: #E8EAEB;
+        width: 100%;
+        height: 280px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        padding-right: 107px;
+
+
+    }
+
+    .aftercare_parralax {
+        background-image: url(../images/aftercare-web-01.png);
+        min-height: 700px;
+        width: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-right: 30%;
+    }
+
+    .aftercare_text_web {
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+        font-size: 18px;
+    }
+
+    .aftercare_header_web {
+        color: #E8EAEB;
+        font-family: azo-sans-web, sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 70px;
+    }
+
+    #aftercare_web {
+        margin-top: 30px;
+    }
+
+    #aftercareCLose_web {
+        margin-top: 30px;
+    }
+
+    #aftercare_sheet_web {
+        width: 100%;
+    }
+
+    .products_web {
+        width: 80%;
+        background-color: #E8EAEB;
+        padding-top: 12vw;
+    }
+
+    .products_header_web {
+        text-align: end;
+        font-family: ff-meta-correspondence-web-p,ans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+        margin-left: 65%;
+        padding-right: 30px;
+    }
+
+    .prepare_white_box3 {
+        background-color: #E8EAEB;
+        width: 100%;
+        height: 2vw;
+    }
+
+    .products_text_web {
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+        margin-left: 60%;
+        background-color: #E8EAEB;
+        padding: 30px;
+        text-align: justify;
+
+    }
+
+    .additional {
+        font-size: 16px;
+    }
+
+
+    .products_parralax {
+        background-image: url(../images/productsWeb.jpg);
+        min-height: 400px;
+        width: 80%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .products_text_parralax {
+        background-color: #E8EAEB;
+        margin-left: 60%;
+        font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+        font-size: 18px;
+        padding: 30px;
+    }
+
+    .prepare_white_box4 {
+        display: block;
+        background-color: #E8EAEB;
+        width: 80%;
+        height: 6vw;
+}
+
+
+
+}
+
+
+
+
+@media only screen and (min-width: 1400px) {
+
+    .breadcrumb {
+        font-size: 50px;
+    }
+}

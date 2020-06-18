@@ -1,0 +1,464 @@
+.prices {
+    background-color: #E8EAEB;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.header_photo {
+    background-image: url(../images/backPrices.png);
+}
+
+.prices_header {
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    color: #2D2D2D;
+    font-size: 45px;
+    padding: 40px 0;
+}
+
+.subheader {
+    font-family: ff-meta-correspondence-web-p,ans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+    padding: 15px;
+    color: #2D2D2D;
+    margin: 0 20%;
+}
+
+.top_line {
+    border-top: 1px solid #2D2D2D;
+    margin-top: 20px;
+}
+
+.prices_text {
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 2;
+    color: #2D2D2D;
+}
+
+.text {
+    padding-bottom: 12px;
+}
+
+.deposit {
+    font-family: ff-meta-correspondence-web-p,ans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    color: #556476;
+}
+
+.cta {
+    background-color: #E8EAEB;
+    color: #59687A;
+    border: 1.5px solid #546375;
+    border-radius: 25px;
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+   text-align: center;
+    font-size: 30px;
+    padding: 6px 35px;
+}
+
+
+
+.btn {
+   background-color: #E8EAEB;
+    border: 0.5px solid #546375;
+    border-radius: 32px;
+    font-size: 25px;
+    padding: 5px 6px;
+    margin: auto 0;
+}
+
+.booking_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 10px;
+}
+
+.booking_text {
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #E8EAEB;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.gift_div {
+    background-color: #E8EAEB;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.giftcard {
+    width: 90%;
+    padding-bottom: 20px;
+}
+
+.cta1 {
+    background-color: #E8EAEB;
+    color: #59687A;
+    border: 1.5px solid #546375;
+    border-radius: 25px;
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+   text-align: center;
+    font-size: 20px;
+    padding: 6px 30px;
+}
+
+.cta1:hover {
+    background-color: #556476;
+    color: #E8EAEB;
+    cursor: pointer;
+  transition-duration: 1s;
+}
+
+.btn1 {
+   background-color: transparent;
+    border: 0.5px solid #546375;
+    border-radius: 25px;
+    font-size: 25px;
+    padding: 3px;
+    margin: auto 0;
+}
+
+button {
+    outline: none;
+}
+
+#close {
+    color: #556476;
+    background-color: transparent;
+    font-size: 25px;
+    margin-left: 85%;
+}
+
+#close:hover {
+    cursor: pointer;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #556476;
+}
+
+
+
+#name {
+    color: red;
+}
+
+.btn2 {
+    background-color: #E8EAEB;
+    border: 0.5px solid #546375;
+    border-radius: 35px;
+    font-size: 25px;
+    padding: 3px;
+}
+
+.cta2 {
+   background-color: #E8EAEB;
+    color: #59687A;
+    border: 1.5px solid #546375;
+    border-radius: 25px;
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+   text-align: center;
+    font-size: 20px;
+    padding: 6px 30px;
+}
+
+.cta2:hover {
+    background-color: #556476;
+    color: #E8EAEB;
+    cursor: pointer;
+  transition-duration: 1s;
+}
+
+#giftcard_form {
+    position: absolute;
+    background-color: #E8EAEB;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+.input_gift {
+    width: 90%;
+    padding: 7px;
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #556476;
+    font-size: 13px;
+}
+
+input {
+    outline: none;
+}
+
+#booking_form {
+    position: absolute;
+    top: 27vw;
+    width: 100%;
+    background-color: #556476;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 66px;
+    padding-top: 20px;
+}
+
+.close_book {
+    color: #E8EAEB;
+    background-color: transparent;
+    font-size: 25px;
+    margin-left: 85%;
+    padding-bottom: 30px
+}
+
+.input_book {
+    width: 70%;
+    padding: 7px;
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #556476;
+    font-size: 13px;
+    background-color: #E8EAEB;
+}
+
+.book_label {
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #E8EAEB;
+    margin-bottom: -15px;
+}
+
+.comment {
+    padding-bottom: 50px;
+}
+
+select {
+    outline: none;
+    border-radius: 0;
+}
+
+.breadcrumb {
+    font-size: 70px;
+}
+
+.deposit_web {
+    display: none;
+}
+
+.deposit_text_web {
+    display: none;
+}
+
+.booking_form {
+    display: none;
+}
+
+.ornament {
+    display: none;
+}
+
+.booking_header_web {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+
+
+
+    .main_content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+
+    .prices {
+        width: 60%;
+        padding-top: 0;
+        text-align: end;
+    }
+
+    .booking_div {
+        width: 40%;
+        padding-bottom: 30px;
+    }
+
+    .gift_div {
+        width: 60%;
+        margin-top: -460px;
+    }
+
+    .ornament {
+        display: inline-block;
+        width: 60%;
+    }
+
+    .header_photo {
+        background: transparent;
+        font-size: 60px;
+        margin-top: -90PX;
+    }
+
+    .prices_header {
+        font-size: 35px;
+        text-align: center;
+        margin-top: -129px;
+    }
+
+    .prices_web {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 10%;
+    }
+
+    .prices_text {
+        text-align: end;
+        padding: 0 20px;
+    }
+
+    .text {
+        text-align: left;
+        width: 80%;
+
+    }
+
+
+
+    .subheader {
+        margin: 0 15px;
+        text-align: end;
+    }
+
+    .top_line {
+        border-top: none;
+        margin-top: 0;
+        text-align: left;
+    }
+
+    .left_web {
+        border-right: 1px solid #2D2D2D;
+    }
+
+    .deposit {
+        display: none;
+    }
+
+    .main_content {
+        margin-left: 0;
+        width: 90%;
+    }
+
+    /* giftcard section */
+
+    .gift_div {
+        padding-top: 0;
+    }
+
+    .deposit_web {
+        display: block;
+        font-family: ff-meta-correspondence-web-p,ans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #556476;
+    }
+
+    .deposit_text_web {
+        display: block;
+        font-family: ff-meta-correspondence-web-p,ans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    color: #556476;
+        text-align: center;
+        padding: 10px 90px;
+    }
+
+    .giftcard {
+        width: 30vw;
+        max-width: 430px;
+    }
+
+    #giftcard_form {
+        margin-top: 140px;
+    padding-bottom: 140px;
+    width: 54%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .giftcard_header {
+        padding-top: 20px;
+    }
+
+    .btn1 {
+        margin-top: 0;
+    }
+
+
+    /* booking form */
+
+    .booking_form {
+        display: block;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 18px;
+    padding-top: 20px;
+}
+
+    .btn {
+        display: none;
+    }
+
+    .booking_header_web {
+        display: block;
+        font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    color: #E8EAEB;
+    font-size: 35px;
+    margin-top: 22%;
+    }
+
+    .btn2 {
+        margin-top: 2vw;
+    }
+
+    .comment {
+        height: 120px;
+    }
+
+
+}

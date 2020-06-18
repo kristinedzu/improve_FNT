@@ -1,0 +1,459 @@
+.contact-form {
+    background-color: #E8EAEB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.hours-info {
+    margin-top: 35px;
+}
+
+.contactweb {
+    display: none;
+}
+
+.contact-info {
+    margin-top: 35px;
+}
+
+.contacthead {
+    font-size: 30px;
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    color: #E8EAEB;
+    text-align: center;
+
+}
+
+.contactsubhead {
+    font-size: 20px;
+    font-family: ff-meta-correspondence-web-p, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #E8EAEB;
+    text-align: center;
+    padding-top: 20px;
+    line-height: 30px;
+}
+
+.hours-note {
+    font-size: 15px;
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #E8EAEB;
+    text-align: center;
+    padding: 20px 6.5px 0 6.5px;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+.hours-webnote {
+    display: none;
+}
+
+.writeus-header {
+    font-size: 48px;
+    color: #546375;
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    padding-top: 10px;
+
+}
+
+.writeus-note {
+    font-size: 16px;
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #546375;
+    line-height: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+
+.write-contact {
+    background-image: url(../images/wings-opacity.png);
+    background-size: 320px;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    padding-bottom: 60px;
+    padding-top: 30px;
+
+}
+
+.text-fieldform {
+    padding-top: 25px;
+
+}
+
+#name {
+    width: 320px;
+    padding: 12px;
+    border: 0.5px solid #707070;
+    background-color: #E8EAEB;
+    color: #5E6D7F;
+}
+
+#email {
+    width: 320px;
+    padding: 12px;
+    border: 0.5px solid #707070;
+    background-color: #E8EAEB;
+    color: #5E6D7F;
+}
+
+#message {
+    width: 320px;
+    padding: 12px;
+    border: 0.5px solid #707070;
+    height: 100px;
+    background-color: #E8EAEB;
+    resize: vertical;
+    color: #5E6D7F;
+}
+
+
+
+input[type=text] {
+    margin-bottom: 15px;
+}
+
+
+/*horizontal break lines*/
+#line1 {
+    color: #E8EAEB;
+    height: 2px;
+    background-color: #E8EAEB;
+    border: none;
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+#line2 {
+    color: #556476;
+    height: 2.5px;
+    background-color: #556476;
+    border: none;
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+#line3 {
+    color: #E8EAEB;
+    height: 2px;
+    background-color: #E8EAEB;
+    border: none;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 25px;
+
+}
+
+/*styling the cta button*/
+.cta {
+    background-color: #E8EAEB;
+    color: #59687A;
+    border: 1.5px solid #546375;
+    border-radius: 25px;
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    text-align: center;
+    font-size: 20px;
+    padding: 6px 30px;
+}
+
+.cta:hover {
+    background-color: #556476;
+    color: #E8EAEB;
+    cursor: pointer;
+  transition-duration: 1s;
+}
+
+.btn {
+    background-color: transparent;
+    border: 0.5px solid #546375;
+    border-radius: 25px;
+    padding: 3px;
+    margin: 10px auto;
+    width: 125px;
+    text-align: center;
+}
+
+
+#map {
+    height: 300px;
+    width: 100%;
+    margin-top: 25px;
+
+}
+
+
+.breadcrumb {
+    font-size: 60px;
+    line-height: 1;
+}
+
+
+
+.logo-fadein {
+    display: none;
+}
+
+.logo_web {
+    display: none;
+}
+
+button {
+    outline: none;
+}
+
+/* media querries for artists page */
+
+@media only screen and (min-width: 768px) {
+    main {
+        background-color: transparent;
+    }
+
+    .main_content {
+
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .logo_sub {
+        display: none;
+    }
+
+
+    .SoMe_div_side {
+        display: none;
+    }
+
+
+    .hours-info {
+        padding-left: 35px;
+        text-align: left;
+        width: 50%;
+
+    }
+
+    .hours-note {
+        display: none;
+    }
+
+    .hours-webnote {
+        font-size: 20px;
+        font-family: azo-sans-web, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        color: #E8EAEB;
+        text-align: center;
+        margin-top: 1.5vw;
+        display: block;
+
+    }
+
+    .contact-info {
+        display: none;
+
+    }
+
+    .contactweb {
+        display: block;
+        text-align: right;
+        padding-right: 35px;
+        width: 50%;
+        border-right: 2px solid #E8EAEB;
+    }
+
+    .contacthead {
+        text-align: right;
+    }
+
+    .contactsubhead {
+        text-align: right;
+
+    }
+
+    .contact-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contactheadweb {
+        text-align: left;
+    }
+
+    .subheadweb {
+        text-align: left;
+    }
+
+    #line1 {
+        display: none;
+    }
+
+
+    .map-container {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+
+
+    }
+
+    #map {
+        height: 300px;
+        width: 520px;
+        margin-top: 25px;
+        margin-right: 30px;
+        padding-left: 30px;
+        border-left: 2px solid #E8EAEB;
+
+    }
+
+    #line3 {
+        display: none;
+
+    }
+
+    .contact-form {
+        background-color: #E8EAEB;
+        margin-top: 25px;
+        display: flex;
+        flex-direction: row;
+        height: 300px;
+        margin-right: 30px;
+    }
+
+
+
+    .write-contact {
+        width: 260px;
+        background-image: url(../images/wings-opacity.png);
+        background-size: 220px;
+        background-position: top;
+        background-repeat: no-repeat;
+        text-align: center;
+
+    }
+
+    .writeus-note {
+        font-size: 16px;
+        font-family: azo-sans-web, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        color: #546375;
+        line-height: 30px;
+
+    }
+
+    .writeus-header {
+        font-size: 38px;
+        color: #546375;
+        font-family: azo-sans-web, sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        padding-bottom: 10px;
+    }
+
+    #line2 {
+        display: none;
+    }
+
+    .text-fieldform {
+        width: 260px;
+        border-left: 2px solid #546375;
+    }
+
+    #message {
+        width: 92%;
+        padding: 12px;
+        border: 0.5px solid #707070;
+        height: 100px;
+        background-color: #E8EAEB;
+        resize: vertical;
+        color: #5E6D7F;
+        font-family: azo-sans-web, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    #email {
+        width: 92%;
+        padding: 12px;
+        border: 0.5px solid #707070;
+        height: 30px;
+        background-color: #E8EAEB;
+        resize: vertical;
+        color: #5E6D7F;
+    }
+
+    #name {
+        width: 92%;
+        padding: 12px;
+        border: 0.5px solid #707070;
+        height: 30px;
+        background-color: #E8EAEB;
+        resize: vertical;
+        color: #5E6D7F;
+    }
+
+    .btn {
+        background-color: transparent;
+        border: 0.5px solid #546375;
+        border-radius: 25px;
+        padding: 3px;
+        margin: 16px auto;
+        width: 125px;
+        text-align: center;
+    }
+
+    .SoMe_div {
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-top: 4vw;
+
+    }
+
+    .logo_web {
+        display: block;
+        width: 300px;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+
+    .mapboxgl-ctrl-logo {
+        position: absolute;
+        bottom: 0;
+        left: 30px;
+    }
+
+    html {
+        height: 100%;
+    }
+
+
+.search-box {
+    height: 70px;
+
+ }
+}
