@@ -66,8 +66,6 @@
 }
 
 .hygiene_section {
-    position: relative;
-    z-index: 3;
     display: flex;
     flex-direction: column;
 }
@@ -101,11 +99,8 @@
 }
 
 .aftercare {
-    position: -webkit-sticky;
-  position: sticky;
-  top: 0;
     position: relative;
-    z-index: 6;
+    z-index: 26;
     background-image: url(../images/aftercare-01.png);
     background-size: cover;
     height: 300px;
@@ -174,12 +169,7 @@ button {
 }
 
 .products_section {
-    position: -webkit-sticky;
-  position: sticky;
-  top: 0;
     background-color: #E8EAEB;
-    position: relative;
-    z-index: 4;
 }
 
 .products_header {
