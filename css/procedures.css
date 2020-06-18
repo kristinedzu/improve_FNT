@@ -172,13 +172,12 @@ button {
 #aftercare_sheet {
     width: 100%;
     position: relative;
-    z-index: 8;
 }
 
 .products_section {
     background-color: #E8EAEB;
     position: relative;
-    z-index: 8;
+    z-index: 4;
 }
 
 .products_header {
