@@ -106,7 +106,7 @@
 
 .aftercare {
     position: relative;
-    z-index: 4;
+    z-index: 6;
     background-image: url(../images/aftercare-01.png);
     background-size: cover;
     height: 300px;
@@ -178,6 +178,7 @@ button {
 .products_section {
     background-color: #E8EAEB;
     position: relative;
+    z-index: 8;
 }
 
 .products_header {
