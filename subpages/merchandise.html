@@ -3,24 +3,23 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Flying Needles Tattoo merchandise</title>
-    <meta name="description" content="Tattoo is just one type of arts. We love all art. In our shop you can find different kind of unique art products like bookmarks, posters, stickers, badges and more">
+    <title>Flying Needles Tattoo prices</title>
+    <meta name="description" content="we have created a price list for you to get you better understanding of the tattoo price. But keep in mind, that every tattoo price is individual and it will be announced after knowing all the details">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex" />
     <link rel="stylesheet" href="https://use.typekit.net/lhq4rzb.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/basic.css">
+    <link rel="stylesheet" href="../css/prices.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.2.0/dist/simpleParallax.min.js"></script>
     <script src="../js/slick.min.js"></script>
     <script src="../js/js.js"></script>
-    <link rel="stylesheet" href="../css/basic.css">
-    <link rel="stylesheet" href="../css/merchandise.css">
-
 </head>
 
-<body>
+<body id="body">
 
     <header class="header">
         <div class="logo_div"><a href="../subpages/menu.html"><img src="../images/logoSub-09.png" alt="logo" class=logo_sub></a></div>
@@ -29,6 +28,7 @@
                 <input class="textbox" type="text" name="search" />
                 <img src="../images/search-09.png" alt="SearchIcon" class="search_icon" />
             </div>
+
             <nav>
                 <div id="menu">
                     <input type="checkbox" id="openMenu">
@@ -49,64 +49,171 @@
         </div>
     </header>
 
-
-
-
     <main>
+
+
         <div class="main_content">
 
+        <section class="prices">
+           <img src="../images/symorn1-01.png" alt="Ornament" class="ornament">
+            <div class="header_photo">
+                <h2 class="prices_header">PRICES</h2>
+            </div>
+            <div class="prices_web">
+            <div>
+            <h2 class="subheader">ARTIST</h2>
+            <p class="prices_text left_web">
+                Small tattoos, under 30min work - 500 kr,<br>
+                Fixed hourly rate 700 kr,<br>
+                Full day session (6 hours) 3600 kr,<br>
+                Laser prices - from 300 kr,
+            </p>
+            </div>
+            <div>
+            <h2 class="subheader top_line">APPRENTICE</h2>
+            <p class="prices_text text">
+                Small tattoos (approx 5x5cm, 1 color/needle) - 400 kr,<br>
+                Fixed hourly rate 500 kr,<br>
+                Full day session (6 hours) 2500 kr,
+            </p>
+            </div>
+            </div>
+            <p class="deposit">Deposit of 300, at a time of booking</p>
+        </section>
 
 
-            <section class="poster-section">
 
-                <h1 class="posters-header">POSTERS</h1>
-                <img src="../images/posters.png" class="posters-image" alt="posters-image">
-                <div class="parallax">
-                    <img src="../images/posters-web.png" class="posters-image poster-web" alt="posters-image">
-                    <div class="middle">
-    <div class="text">Come to the store to see more</div>
-  </div>
+
+
+        <div class="booking_div">
+            <form action="#" id="booking_form">
+                <button type="button" class="close_book" id="close_book">&#x2715;</button><br>
+                <input type="text" placeholder="Full name" class="input_book" required><br>
+
+                <select name="styles" class="input_book" required>
+                    <option value="">Realistic</option>
+                    <option value="">Oldschool/Neotraditional</option>
+                    <option value="">Whipshading</option>
+                    <option value="">Dotwork</option>
+                    <option value="" class="">Blackwork/Lines</option>
+                    <option value="">Color</option>
+                    <option value="">Color splashes/Watercolor</option>
+                    <option value="">Mix</option>
+                </select><br>
+
+                <input type="email" placeholder="Email" class="input_book" required><br>
+                <input type="text" placeholder="Size (cm)" class="input_book" required><br>
+                <label for="date" class="book_label">Available time:</label><br>
+                <input type="date" id="date" class="input_book" required><br>
+
+                <label for="artists" class="book_label">Artists:</label><br>
+                <select id="artists" class="input_book" required>
+                    <option value="">Anders</option>
+                    <option value="">Inga</option>
+                </select><br>
+
+                <input type="text" placeholder="Placement" class="input_book" required><br>
+                <input type="file" name="img" accept="image/*" class="input_book"><br>
+                <input type="text" placeholder="Comment" class="input_book comment"><br>
+
+                <div class="btn2">
+                    <button type="submit" class="cta2 submit">SEND</button>
                 </div>
-                <p class="shop-note">*Come to the store to see more.</p>
-                <a href="#bookmarks"><img src="../images/arrowDown-01.png" alt="ArrowDown" class="arrow_scroll web_arrow"></a>
-            </section>
-            <section id="bookmarks" class="bookmarks-section">
-                <h1 class="bookmarks-header">BOOKMARKS</h1>
-                <img src="../images/bookmarks.png" class="bookmarks-image" alt="bookmarks-image">
-                <div class="parallax">
-                    <img src="../images/bookmarks-web.png" class="bookmarks-image bookmarks-web" alt="bookmarks-image">
+            </form>
 
+           <h1 class="booking_header_web">BOOKING FORM</h1>
+
+            <p class="booking_text">Please fill out this form before booking.</p>
+
+
+            <form action="#" class="booking_form">
+
+                <input type="text" placeholder="Full name" class="input_book" required><br>
+
+
+                <select name="styles" class="input_book" required>
+                    <option value="">Realistic</option>
+                    <option value="">Oldschool/Neotraditional</option>
+                    <option value="">Whipshading</option>
+                    <option value="">Dotwork</option>
+                    <option value="" class="">Blackwork/Lines</option>
+                    <option value="">Color</option>
+                    <option value="">Color splashes/Watercolor</option>
+                    <option value="">Mix</option>
+                </select><br>
+
+                <input type="email" placeholder="Email" class="input_book" required><br>
+                <input type="text" placeholder="Size (cm)" class="input_book" required><br>
+                <label for="date2" class="book_label">Available time:</label><br>
+                <input type="date" id="date2" class="input_book" required><br>
+
+                <label for="artists" class="book_label">Artists:</label><br>
+                <select name="artists" class="input_book" required>
+                    <option value="">Anders</option>
+                    <option value="">Inga</option>
+                </select><br>
+
+                <input type="text" placeholder="Placement" class="input_book" required><br>
+                <input type="file" name="img" accept="image/*" class="input_book"><br>
+                <input type="text" placeholder="Comment" class="input_book comment"><br>
+
+                <div class="btn2">
+                    <button type="submit" class="cta2 submit">SEND</button>
                 </div>
-            </section>
-            <section class="stickers-section">
-
-                <h1 class="stickers-header">STICKERS</h1>
-                <img src="../images/stickers.png" class="stickers-image" alt="stickers-image">
-                <div class="parallax">
-                    <img src="../images/stickers-web.png" class="stickers-image stickers-web" alt="stickers-image">
-                </div>
-            </section>
+            </form>
 
 
-            <section class="badges-section">
-                <h1 class="badges-header">BADGES</h1>
-                <img src="../images/badges.jpg" class="badges-image" alt="badges-image">
-                <img src="../images/badges-web.png" class="badges-image badges-web" alt="badges-image">
-            </section>
 
-        </div>
+            <div class="btn" id="book">
 
-        <div class="side_footer">
-
-            <h2 class="breadcrumb">M<br>E<br>R<br>C<br>H<br>A<br>N<br>D<br>I<br>S<br>E</h2>
-            <div class="SoMe_div_side">
-                <a href="https://www.facebook.com/Flyingneedlestattoo/?fref=tsl"><img src="../images/facebook.png" alt="FacebookIcon" class=SoMe_side></a>
-                <a href="https://www.instagram.com/aa_tattoo_flyingneedles_/"><img src="../images/instagram.png" alt="InstagramIcon" class=SoMe_side></a>
-                <a href="https://www.youtube.com/channel/UCERSeRJLZCGp3_uAN7riaSg"><img src="../images/youtube.png" alt="YoutubeIcon" class=SoMe_side></a>
+                <button type="submit" class="cta">BOOK</button>
             </div>
         </div>
 
+
+
+        <div class="gift_div">
+
+           <p class="deposit_web">Deposit of 300, at a time of booking*</p>
+           <p class="deposit_text_web">* The deposit will be counted from the price after the finished job, or withdrawal via absence. Moving or cancelling the appointments have to be done minimum 48 hours before the appointment.</p>
+
+            <h2 class="subheader giftcard_header">GIFT CARDS</h2>
+            <img src="../images/giftCard.png" alt="GiftCardImage" id="giftcard" class="giftcard">
+
+            <form action="#" id="giftcard_form">
+                <button type="button" class="close" id="close">&#x2715;</button><br>
+                <input type="text" placeholder="Full name" class="input_gift" required><br>
+                <input type="email" placeholder="Email" class="input_gift" required><br>
+                <input type="number" placeholder="Amount (kr)" class="input_gift" required><br>
+                <div class="btn2">
+                    <button type="submit" class="cta2 submit">BUY</button>
+                </div>
+            </form>
+
+            <div class="btn1">
+                <button type="submit" class="cta1" id="order">ORDER</button>
+            </div>
+        </div>
+
+        </div>
+
+
+        <div class="side_footer">
+
+
+
+           <h2 class="breadcrumb">P<br>R<br>I<br>C<br>E<br>S</h2>
+           <div class="SoMe_div_side">
+            <a href="https://www.facebook.com/Flyingneedlestattoo/?fref=tsl"><img src="../images/facebook.png" alt="FacebookIcon" class=SoMe_side></a>
+            <a href="https://www.instagram.com/aa_tattoo_flyingneedles_/"><img src="../images/instagram.png" alt="InstagramIcon" class=SoMe_side></a>
+            <a href="https://www.youtube.com/channel/UCERSeRJLZCGp3_uAN7riaSg"><img src="../images/youtube.png" alt="YoutubeIcon" class=SoMe_side></a>
+        </div>
+        </div>
+
+
     </main>
+
+
 
     <footer class="footer">
         <div class="SoMe_div">
@@ -118,6 +225,8 @@
     </footer>
 
 
+</body>
 
 
-</body></html>
+
+</html>
