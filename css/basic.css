@@ -129,6 +129,8 @@ body {
     width: 100%;
     height: 100%;
     background-image: url(../images/background-regular.png);
+    background-size: contain;
+        background-repeat: repeat;
     text-align: center;
     overflow: scroll;
     display: flex;
