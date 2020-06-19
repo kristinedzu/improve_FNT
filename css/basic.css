@@ -781,7 +781,26 @@ width: 80%;
     font-size: 4vw;
 }
 
+     #subLink {
+         text-align: center;
+         display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+         max-height: 100px;
+         min-height: 50px;
+}
 
+    #subLink2 {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        max-height: 200px;
+         min-height: 50px;
+}
 
 
 }
@@ -882,12 +901,7 @@ width: 80%;
 
     .search_icon {
         margin-right: 65px;
-
-
 }
-
-
-
 
 }
 
