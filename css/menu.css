@@ -18,19 +18,6 @@ body {
     width: 100%;
     background-image: url(../images/background-regular.png);
     background-size: contain;
-
-
-}
-
-
-
-
-
-
-/*first logo fadeout*/
-
-.logo-fadeout {
-    width: 100%;
 }
 
 .web {
@@ -615,6 +602,10 @@ li {
     }#linkProducts {
         font-size: 4.5vw;
         line-height: 1.9;
+    }
+    
+    .fadein-container {
+        text-align: center;
     }
 }
 
