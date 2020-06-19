@@ -177,6 +177,27 @@ li {
     opacity: 0.5;
 }
 
+     #subLink {
+         text-align: center;
+         display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+         max-height: 100px;
+         min-height: 50px;
+}
+
+    #subLink2 {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        max-height: 200px;
+         min-height: 50px;
+}
+
 .navlink2 {
     font-family: azo-sans-web, sans-serif;
     font-style: normal;
@@ -186,6 +207,8 @@ li {
     text-decoration: none;
     line-height: 1;
 }
+
+
 
 .navlink3 {
     font-family: azo-sans-web, sans-serif;
@@ -314,9 +337,9 @@ li {
     font-weight: 400;
     font-style: normal;
     color: white;
-    font-size: 1.5vw;
     text-decoration: none;
     line-height: 5;
+    font-size: 1.5vw;
     margin-right: 40px;
     position: relative;
 }
@@ -354,9 +377,9 @@ li {
     font-weight: 400;
     font-style: normal;
     color: white;
-    font-size: 1.5vw;
     text-decoration: none;
     line-height: 5;
+    font-size: 1.5vw;
    margin-left: 40px;
 }
 
@@ -424,9 +447,9 @@ li {
     font-weight: 400;
     font-style: normal;
     color: white;
-    font-size: 1.5vw;
     text-decoration: none;
     line-height: 3.9;
+    font-size: 1.5vw;
     margin-left: 20px;
 }
 
@@ -460,9 +483,9 @@ li {
     font-weight: 400;
     font-style: normal;
     color: white;
-    font-size: 1.5vw;
     text-decoration: none;
     line-height: 3.9;
+    font-size: 1.5vw;
     margin-left: 20px;
 }
 
@@ -496,9 +519,9 @@ li {
     font-weight: 400;
     font-style: normal;
     color: white;
-    font-size: 1.5vw;
     text-decoration: none;
     line-height: 3.9;
+    font-size: 1.5vw;
     margin-left: 20px;
 }
 
@@ -779,37 +802,94 @@ width: 80%;
         font-size: 5.5vw;
         line-height: 3;
     }
-    
+
     #linkAnders {
         font-size: 5.5vw;
         line-height: 3;
     }
-    
+
     #linkPrepare {
         font-size: 5.5vw;
         line-height: 1.7;
     }
-    
+
     #linkHygiene {
         font-size: 5.5vw;
         line-height: 1.7;
     }
-    
+
     #linkAftercare {
         font-size: 5.5vw;
         line-height: 1.7;
     }
-    
+
     #linkProducts {
         font-size: 5.5vw;
         line-height: 1.7;
     }
-    
-    #subLink2 {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
+
+
+    #subLink {
+    width: 35vw;
 }
+
+    #subLink2 {
+    width: 45vw;
+}
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+        #subLink {
+    width: 100%;
+}
+
+    #subLink2 {
+    width: 100%;
+}
+
+    #linkAnders {
+        font-size: 4.5vw;
+        line-height: 2.9;
+    }
+
+    #linkInga {
+        font-size: 4.5vw;
+        line-height: 2.9;
+    }
+
+    #linkPrepare {
+        font-size: 4.5vw;
+        line-height: 1.9;
+    }#linkHygiene {
+        font-size: 4.5vw;
+        line-height: 1.9;
+    }#linkAftercare {
+        font-size: 4.5vw;
+        line-height: 1.9;
+    }#linkProducts {
+        font-size: 4.5vw;
+        line-height: 1.9;
+    }
+
+    nav {
+        position: fixed;
+        right: 10px;
+        z-index: 1000;
+}
+
+    .search_icon {
+        margin-right: 65px;
+
+
+}
+
+
+
+
+}
+
+
+
